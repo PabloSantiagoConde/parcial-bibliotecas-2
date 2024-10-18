@@ -1,9 +1,8 @@
-import random
-from Package_Matrix import inicializar_matriz,cargar_libros_aleatorios
+from Package_Matrix import *
 
 def biblioteca():
     
-    biblio = inicializar_matriz(6,15,"")
+    biblio = inicializar_matriz(5,20,"")
     cargar_libros_aleatorios(biblio)
 
     return biblio

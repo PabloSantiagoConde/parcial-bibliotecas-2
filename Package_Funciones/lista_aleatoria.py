@@ -21,7 +21,8 @@ def lista_aleatorios():
 
     for i in range(len(lista)):
         lista[i] = random.randint(0, 9)
-
+                            ##Solo para int
     return lista
 
 ##La responsabilidad de esta funcion es devolverte la lista con n° aleatorios.
+

@@ -2,20 +2,20 @@ Desarrollar en Python:
 
 Crear una biblioteca que contenga las siguientes funciones:
 
-Desarrollar una función que genere de manera aleatoria una lista de 100 números enteros positivos del 0 al 9.
+Desarrollar una función que genere de manera aleatoria una lista de 100 números enteros positivos del 0 al 9. (Listo)
 
-Desarrollar una función que genere de manera aleatoria una matriz de 5 filas por 20 columnas (5 listas de 20 elementos cada una), de caracteres alfabéticos en minúsculas de la letra ‘a’ a la ‘z’.
+Desarrollar una función que genere de manera aleatoria una matriz de 5 filas por 20 columnas (5 listas de 20 elementos cada una), de caracteres alfabéticos en minúsculas de la letra ‘a’ a la ‘z’. (terminado)
 
-Desarrollar una función que ordene una lista de números enteros, recibiendo como parámetro el criterio de ordenamiento ASC o DESC.
+Desarrollar una función que ordene una lista de números enteros, recibiendo como parámetro el criterio de ordenamiento ASC o DESC. (listu)
 
-Desarrollar una función que valide el ingreso de una cadena de caracteres alfabética, para ser utilizada en el ítem 6..
+Desarrollar una función que valide el ingreso de una cadena de caracteres alfabética, para ser utilizada en el ítem 6.. (Listu)
 
 
  Luego, se deberá programar un menú de opciones operado por consola, que realice lo siguiente:
 
- 1 – Generar la lista aleatoria de números enteros utilizando la función desarrollada.
+ 1 – Generar la lista aleatoria de números enteros utilizando la función desarrollada. (listo)
 
- 2 – Ordenar la lista de números generada anteriormente, utilizando la función desarrollada.
+ 2 – Ordenar la lista de números generada anteriormente, utilizando la función desarrollada. (listo)
 
  3 – Buscar e informar cuantas veces se repite cada uno de los números del 0 al 9.
 
