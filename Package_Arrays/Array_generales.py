@@ -1,31 +1,3 @@
-def valor_max(lista) -> list|int:
-    max = float("-inf")                                                         
-    
-    for i in range(len(lista)):                 
-        if lista[i] > max:
-            max = lista[i] 
-             
-    return max   
-
-def valor_min(lista):
-    min = float("inf")                                                         
-    
-    for i in range(len(lista)):                 
-        if lista[i] < min:
-            min = lista[i] 
-             
-    return min  
-
-def lista_string(lista):
-    string = ""
-    for i in range(len(lista)):
-        string += lista[i]
-    return string
-
-def print_all(lista) -> list:
-    for i in range(len(lista)):
-        print(lista[i])
-
 def validar_lista(lista): #Verificar si la lista no esta vacía
     return lista != []
 
@@ -35,16 +7,6 @@ def validar_lista_existente(lista):
     else:
         print("\n Error, antes de realizar esta acción tiene que iniciar la lista (elegir la opción 1) \n")
         return False
-
-def rango(cota_inf,cota_sup,lista):
-    lista_nueva = []
-    for i in range(len(lista)):
-        if cota_inf <= lista[i] <= cota_sup:
-            lista_nueva += [lista[i]]
-    if validar_lista(lista_nueva):
-        return lista_nueva
-    else:
-        return "No hay numeros en ese rango"
 
 def cantidad_repetidos(lista) -> list | list : #la lsita final debe tener 10 elem
     lista_final = [0] * 10
